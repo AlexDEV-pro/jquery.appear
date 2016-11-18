@@ -1,5 +1,7 @@
 # jQuery plugin to call a function when an element appears
 
+Fork of https://github.com/bas2k/jquery.appear
+
 ## Usage
 
 Mimics a custom 'appear' event, which fires when an element scrolls into view or otherwise becomes visible to the user.
@@ -15,5 +17,3 @@ This plugin can be used to prevent unnecessary requests for content that's hidde
       $(this).text('Hello world');
     },{accX: 50, accY: 100});
 Will fire 'appear' event with accuracy 50px in X and 100px in Y
-
-http://bas2k.ru/
